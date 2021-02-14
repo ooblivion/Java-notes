@@ -3,14 +3,30 @@ package Method;
 public class WhatIsMethod {
     //main method declaration
     public static void main(String[] args) {
-        int sum = add(1, 2);
-        System.out.println(sum);
+//        int sum = add(1, 2);
+//        System.out.println(sum);
+
+        test();
+
     }
 
     //add
     //  修饰符   返回值类型 方法名(形参)
     public static int add(int a, int b){
         return a+b;
+    }
+
+    //方法的固定写法
+    public static void test(){
+        for (int i = 1; i<=10; i++){
+            for (int j = 10; j>=i; j--){
+                System.out.print(" ");
+            }
+            for (int j = 1; j<=2*i-1; j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
     }
 
 }
