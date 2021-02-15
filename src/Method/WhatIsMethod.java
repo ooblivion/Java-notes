@@ -3,8 +3,10 @@ package Method;
 public class WhatIsMethod {
     //main method declaration
     public static void main(String[] args) {
-//        int sum = add(1, 2);
-//        System.out.println(sum);
+
+        //实际参数
+        int sum = add(1, 2);
+        System.out.println(sum);
 
         test();
 
