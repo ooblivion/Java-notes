@@ -1,4 +1,4 @@
-package KuangJava.Array;
+package KuangJava.Array.TwoDimension;
 
 public class ArrayTwoDimensionCirculation {
     public static void main(String[] args) {

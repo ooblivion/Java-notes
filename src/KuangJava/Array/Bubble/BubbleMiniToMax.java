@@ -1,4 +1,4 @@
-package KuangJava.Array;
+package KuangJava.Array.Bubble;
 
 import java.util.Arrays;
 

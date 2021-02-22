@@ -1,4 +1,4 @@
-package KuangJava.Array;
+package KuangJava.Array.Bubble;
 
 import java.util.Arrays;
 
@@ -47,7 +47,8 @@ public class Bubble {
             if (flag==false){
                 break;
             }
-
+            //每轮都要重置flag==false 实际上用了这个之后运行时间会变长
+            //当原始数据后面本来就是顺序排列的时候，有优化就不用走了
         }
 
         return arr;
